@@ -1,0 +1,33 @@
+@media (min-width: 412px) {
+    img {
+        width: 31vw;
+        left: 34%;
+    }
+
+    .container {
+        bottom: 34%;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width:360px) and (max-width: 760px) {
+
+    img {
+        width: 33vw;
+        height: 14vh;
+        left: 33%;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        bottom: 44%;
+    }
+    #lovevalue{
+        font-size: 30px;
+    }
+    footer{
+        font-size: 26px
+    }
+}
